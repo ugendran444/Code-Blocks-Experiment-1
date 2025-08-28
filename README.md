@@ -1,5 +1,6 @@
 # Code-Blocks-Experiment-1
 Implementation of Go-Back-N Protocol – Sliding Window
+
 🎯 Aim
 To write and execute a program for the Go-Back-N protocol using the sliding window technique.
 
@@ -23,7 +24,6 @@ Add: netproto and pthread
 
 💻 Program
 #include <stdio.h>
-
 #define window_size 4  // Assume 7 frames of data are to be sent using Go-Back-N ARQ
 
 void main() {
